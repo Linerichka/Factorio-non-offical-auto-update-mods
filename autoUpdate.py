@@ -98,6 +98,7 @@ for mod_name in mods:
                 errors.append(mod_name)
         else:
             print(f"[!] Не найдена версия {TARGET_VERSION} для мода {mod_name}")
+            print(url)
             errors.append(mod_name)
 
     except Exception as e:
